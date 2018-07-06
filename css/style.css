@@ -21,7 +21,6 @@ header{
     color: #e56038;
     font-size: 40px;
     padding-bottom: 5px;
-    font-family: baumans,cursive;
     
 
 }
@@ -487,7 +486,7 @@ footer{
      {  width:30%; 
         padding: 1px;
         font-size: 12px;
-         margin-top: 11px;
+        margin-top: 11px;
         
      }
      .social
@@ -519,46 +518,65 @@ footer{
 
 
 
-600 px mobile view
+/*600 px mobile view*/
 
 
 @media only screen and (max-width: 400px) {
     
     header{
         
-        max-width: 600px;
+        max-width: 900px;
 
     }
     .head{
+        width: 50%;
         height: 50px;
         padding: 0px;
         display: block;
     }
     .head h1{
-        font-size: 16px;
+        font-size: 40px;
     }
     .head p{
-        padding: 0px;
+        margin-top: 4px;
+        font-size: 24px;
     }
+
 
     .list li { 
     padding: 10px;   
-    font-size: 12px;
+    font-size: 25px;
+    margin-top: 10px;
 
    
     }
     .list ul{
         margin-right:3px;
         margin-bottom: 10px;
+        padding-top: 10px;
+        font-size: 25px;
     }
     .parentimg{
         display: none;
-        float: none;
+        
     }
-    #boxcontent
-    {
-        overflow: hidden;
+    .third{
+        height: 135px;
     }
+    .third p{
+        font-size: 30px;
+    }
+    .third input{
+        margin-right: 19px;
+
+    }
+    #boxcontent{
+        width: 100%;
+    }
+
+   #fifth{
+
+   }
 }
     
 
