@@ -1,4 +1,4 @@
-      body{
+    body{
     width: 100%;
     height: auto;
     font-family: 'Roboto', sans-serif;
@@ -572,11 +572,32 @@ footer{
     }
     #boxcontent{
         width: 100%;
+        margin-left: 10rem;
+
+    }
+    #boxcontent article h3{
+        font-size: 20px;
+
+    }
+    #boxcontent article p{
+        font-size: 15px;
     }
 
    #fifth{
+    padding-top: 25rem;
+    margin-left: 10rem;
 
    }
+   .column1 p{
+    font-size: 30px;
+
+   }
+   .column2 p{
+    font-size: 10px;
+   }
+   
+
+
 }
     
 
